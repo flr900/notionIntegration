@@ -1,9 +1,9 @@
 {
     "authOptions":
         {
-            "clientId": "7e11bba4-ff44-4c76-9743-8d4ad36347d1",
+            "clientId": "id",
             "authority": "YOUR_AUTHORITY",
-            "clientSecret": "CML8Q~6xy555.R.~otfE4rkPV7KzhZFjoJYgPcDh"
+            "clientSecret": "secret"
             
         },
     "request":
