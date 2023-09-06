@@ -1,0 +1,24 @@
+{
+    "authOptions":
+        {
+            "clientId": "7e11bba4-ff44-4c76-9743-8d4ad36347d1",
+            "authority": "YOUR_AUTHORITY",
+            "clientSecret": "CML8Q~6xy555.R.~otfE4rkPV7KzhZFjoJYgPcDh"
+            
+        },
+    "request":
+    {
+        "authCodeUrlParameters": {
+            "scopes": ["user.read","allsites.manage"],
+            "redirectUri": "http://localhost:3000/redirect"
+        },
+        "tokenRequest": {
+            "redirectUri": "http://localhost:3000/redirect",
+            "scopes": ["user.read","allsites.manage"]
+        }
+    },
+    "resourceApi":
+    {
+        "endpoint": "https://graph.microsoft.com/v1.0/me"
+    }
+}
